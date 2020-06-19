@@ -59,6 +59,12 @@ footer {
 /* Change the background colors below */
 
 @media (min-width: 768px) {
+  
+  body {
+    width: 50%;
+    margin: auto;
+  }
+  
   header {
     background-color: deepskyblue;
   }
@@ -84,6 +90,13 @@ footer {
 
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
+  
+  body {
+    width: 33%;
+    margin: auto;
+
+  }
+  
   header {
     background-color: lightgreen;
   }
